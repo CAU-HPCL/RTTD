@@ -1,0 +1,16 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: Randomized Tensor-Train Truncation on GPUs for Quantum-Inspired Computational Fluid Dynamics
+message: >-
+  If you use this software, please cite it using the
+  metadata from this file.
+type: software
+authors:
+  - given-names: Kiet
+    family-names: Pham
+    email: dekisugi@cau.ac.kr
+    affiliation: Chung-Ang University
+repository-code: 'https://github.com/CAU-HPCL/RTTD'
+abstract: CFD simulations using Randomized Tensor Train Truncation.
