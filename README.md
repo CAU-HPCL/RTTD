@@ -33,7 +33,6 @@ pip install -r requirements.txt
 cd RTTD_module/
 make -j8
 make install
-# or: python setup.py develop
 ```
 
 ### 3) Run simulation
