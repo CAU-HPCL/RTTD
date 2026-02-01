@@ -23,9 +23,8 @@ required by TT/MPS sweeps. The method is evaluated on 2D benchmarks (decaying je
 
 ### 1) Create environment
 ```bash
-conda create -n rttd python=3.9 -y
-conda activate rttd
-pip install -r requirements.txt
+conda env create -f environment.yml
+conda activate cutensor
 ```
 
 ### 2) Build/install
@@ -33,7 +32,6 @@ pip install -r requirements.txt
 cd RTTD_module/
 make -j8
 make install
-# or: python setup.py develop
 ```
 
 ### 3) Run simulation
